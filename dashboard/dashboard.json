@@ -1,0 +1,781 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1561701164097,
+      "dashboardNavigations": {"317b7ae9-4605-47a1-8864-040a5d0a7062": [
+         {
+            "id": "a186e6aa-3de0-4318-9a8f-e7b35efe4ad7",
+            "selected": false,
+            "widgets": []
+         },
+         {
+            "id": "6a56ac8e-7d2d-481e-9407-5af3c4248bde",
+            "selected": false,
+            "widgets": []
+         },
+         {
+            "id": "30a2564a-9eaf-4833-9d41-4fd45c57aefb",
+            "selected": false,
+            "widgets": []
+         },
+         {
+            "id": "103d80ba-7588-46e3-83d9-2e02f65a9c85",
+            "selected": false,
+            "widgets": []
+         },
+         {
+            "id": "4b5c602a-6105-48d4-9318-d37c27ba1209",
+            "selected": false,
+            "widgets": []
+         },
+         {
+            "id": "836cc887-86e5-4e84-b4d6-abca177e2394",
+            "selected": false,
+            "widgets": []
+         }
+      ]},
+      "description": "This dashboard provides a guided troubleshooting for each of your virtual machines.",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": true,
+      "homeTab": false,
+      "id": "b15e9ef3-0608-410b-809f-384f63f169b0",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Troubleshoot a VM (including OS)",
+      "namePath": "Performance Troubleshooting",
+      "rank": 82,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "7c8a7242-7625-4bd2-8c95-0c1a3788e4e2",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "a757291a-c4d3-42c5-8b46-7b8d48996e66"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "74410136-17ae-415e-9eaf-c790c104237b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "096c0b10-21d7-45d9-aed8-75bcca7f5382"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "4c99d6b7-07f9-4a42-baef-7c46f7d28e4e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "5877cb44-88a6-4dcf-ba42-9e3e28815a17"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d2e92eb3-8a02-427d-b9e5-03af01a1db81",
+            "widgetIdReceiver": "51c4cea7-3de8-47a2-8a36-c949b8381b4e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "81048961-9f35-4ff8-9c31-eab56020fc24"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "81048961-9f35-4ff8-9c31-eab56020fc24",
+            "widgetIdReceiver": "d2e92eb3-8a02-427d-b9e5-03af01a1db81"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "46a56ec6-03a3-4175-b2f9-6e5d4c563899"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "aefaf36f-a96b-4bf6-8ab7-b919a8b67dab"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "widgetIdReceiver": "d2e92eb3-8a02-427d-b9e5-03af01a1db81"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "aefaf36f-a96b-4bf6-8ab7-b919a8b67dab",
+            "widgetIdReceiver": "4fdfe700-728f-40bf-b185-a3593b795108"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "aefaf36f-a96b-4bf6-8ab7-b919a8b67dab",
+            "widgetIdReceiver": "22dfefb9-ca7a-4a90-9b7f-e403bb3d23c0"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Active Alerts",
+                     "boxLabelLocalized": "Active Alerts",
+                     "boxLabelOrig": "Active Alerts",
+                     "metricKey": "System Attributes|self_alert_count",
+                     "metricName": "vRealize Operations Generated|Total Alert Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Parent vCenter",
+                     "boxLabelLocalized": "Parent vCenter",
+                     "boxLabelOrig": "Parent vCenter",
+                     "metricKey": "summary|parentVcenter",
+                     "metricName": "Summary|Parent vCenter",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": {"mode": 0},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": [
+                     "/source/state/state:2",
+                     "/source/kind_resourceKind:id:1_::_/tag:resource:id:0_::_",
+                     "/source/kind/kind:resourceKind:id:0_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": ["2"],
+                     "status": [],
+                     "tag": [["resource:id:0_::_"]],
+                     "tier": []
+                  }
+               },
+               "title": "1. Search for a VM (use filter)"
+            },
+            "gridsterCoords": {
+               "h": 14,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 780,
+            "id": "317b7ae9-4605-47a1-8864-040a5d0a7062",
+            "states": [{
+               "key": "permResGrid_widget_b15e9ef3-0608-410b-809f-384f63f169b0_317b7ae9-4605-47a1-8864-040a5d0a7062",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A278%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A75%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A102%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A135%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A112%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_System%2525252520Attributes%252525257Cself_alert_count%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AmetricValue_%252525253A%252525253A_System%2525252520Attributes%252525257Cself_alert_count"
+            }],
+            "title": "1. Search for a VM (use filter)",
+            "type": "ResourceList",
+            "x": 1,
+            "y": 1
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "custom": [],
+               "resource": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "9. Does the datastore serving the VM has latency?",
+               "viewDefinitionId": "bb4fbd6c-f655-402b-8d70-6ce8b67a6297"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 7,
+               "y": 16
+            },
+            "height": 543,
+            "id": "a757291a-c4d3-42c5-8b46-7b8d48996e66",
+            "title": "9. Does the datastore serving the VM has latency?",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "2. About the VM",
+               "traversalSpecId": "",
+               "viewDefinitionId": "5cb8a0c9-9044-46c6-9329-cc73c78f6283"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 5,
+               "y": 1
+            },
+            "height": 210,
+            "id": "74410136-17ae-415e-9eaf-c790c104237b",
+            "title": "2. About the VM",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "impactedBadge": "",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": {
+                  "resourceId": "resource:id:1_::_",
+                  "resourceName": "vSphere World"
+               },
+               "selfProvider": {"selfProvider": false},
+               "title": "3. Are there active alerts on the VM? (vSphere Level)",
+               "topIssuesDisplayLimit": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 5,
+               "y": 5
+            },
+            "height": 210,
+            "id": "096c0b10-21d7-45d9-aed8-75bcca7f5382",
+            "title": "3. Are there active alerts on the VM? (vSphere Level)",
+            "type": "ProblemAlertsList"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resInteractionMode": "Dash-VM-Troubleshooting-Utilization",
+               "resourceMetrics": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "6. Is the VM's demand spiking or abnormal?"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 1,
+               "y": 15
+            },
+            "height": 1008,
+            "id": "4c99d6b7-07f9-4a42-baef-7c46f7d28e4e",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_4c99d6b7-07f9-4a42-baef-7c46f7d28e4e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_4c99d6b7-07f9-4a42-baef-7c46f7d28e4e",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_4c99d6b7-07f9-4a42-baef-7c46f7d28e4e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_4c99d6b7-07f9-4a42-baef-7c46f7d28e4e",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_4c99d6b7-07f9-4a42-baef-7c46f7d28e4e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "6. Is the VM's demand spiking or abnormal?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resInteractionMode": "Dash-VM-Troubleshooting-Contention",
+               "resourceMetrics": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "7. Is the VM facing contention?"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 7,
+               "y": 15
+            },
+            "height": 984,
+            "id": "5877cb44-88a6-4dcf-ba42-9e3e28815a17",
+            "states": [
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_5877cb44-88a6-4dcf-ba42-9e3e28815a17",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_5877cb44-88a6-4dcf-ba42-9e3e28815a17",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_5877cb44-88a6-4dcf-ba42-9e3e28815a17",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_5877cb44-88a6-4dcf-ba42-9e3e28815a17",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_5877cb44-88a6-4dcf-ba42-9e3e28815a17",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "7. Is the VM facing contention?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "Dash-VM-Troubleshooting-ClusterKPI",
+               "resourceMetrics": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "8. Does the cluster serving the VM has contention?"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 1,
+               "y": 16
+            },
+            "height": 543,
+            "id": "51c4cea7-3de8-47a2-8a36-c949b8381b4e",
+            "states": [
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_51c4cea7-3de8-47a2-8a36-c949b8381b4e",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_51c4cea7-3de8-47a2-8a36-c949b8381b4e",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_51c4cea7-3de8-47a2-8a36-c949b8381b4e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_51c4cea7-3de8-47a2-8a36-c949b8381b4e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b15e9ef3-0608-410b-809f-384f63f169b0_51c4cea7-3de8-47a2-8a36-c949b8381b4e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "8. Does the cluster serving the VM has contention?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "additionalColumns": [],
+               "mode": {"mode": 1},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Parent Host"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 1,
+               "y": 18
+            },
+            "height": 291,
+            "id": "81048961-9f35-4ff8-9c31-eab56020fc24",
+            "states": [{
+               "key": "permResGrid_widget_b15e9ef3-0608-410b-809f-384f63f169b0_81048961-9f35-4ff8-9c31-eab56020fc24",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A252%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A180%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Parent Host",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "additionalColumns": [],
+               "mode": {"mode": 1},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Parent Cluster"
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 7,
+               "y": 23
+            },
+            "height": 267,
+            "id": "d2e92eb3-8a02-427d-b9e5-03af01a1db81",
+            "states": [{
+               "key": "permResGrid_widget_b15e9ef3-0608-410b-809f-384f63f169b0_d2e92eb3-8a02-427d-b9e5-03af01a1db81",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A252%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A180%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Parent Cluster",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "4. Is the VM working hard over the last week?"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 5,
+               "y": 9
+            },
+            "height": 324,
+            "id": "46a56ec6-03a3-4175-b2f9-6e5d4c563899",
+            "title": "4. Is the VM working hard over the last week?",
+            "type": "IntSummaryStress"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "1,1",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "5. Are the relatives running well ?",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 5,
+               "x": 8,
+               "y": 9
+            },
+            "height": 324,
+            "id": "aefaf36f-a96b-4bf6-8ab7-b919a8b67dab",
+            "states": [
+               {
+                  "key": "perm_viewerType_widget_b15e9ef3-0608-410b-809f-384f63f169b0_aefaf36f-a96b-4bf6-8ab7-b919a8b67dab",
+                  "value": "s%3ArelationshipTree"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b15e9ef3-0608-410b-809f-384f63f169b0_aefaf36f-a96b-4bf6-8ab7-b919a8b67dab",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_b15e9ef3-0608-410b-809f-384f63f169b0_aefaf36f-a96b-4bf6-8ab7-b919a8b67dab",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "5. Are the relatives running well ?",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "10. Linux Key Metrics",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 6,
+               "x": 1,
+               "y": 17
+            },
+            "height": 324,
+            "id": "22dfefb9-ca7a-4a90-9b7f-e403bb3d23c0",
+            "title": "10. Linux Key Metrics",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48415-1",
+                        "isStringMetric": false,
+                        "label": "CPU Total (User Time)",
+                        "link": "",
+                        "metricKey": "cpu:_Total|Percent.User.Time",
+                        "metricName": "CPU:_Total|User Time",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Windows OS",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48415-2",
+                        "isStringMetric": false,
+                        "label": "C: Read Time",
+                        "link": "",
+                        "metricKey": "disk:C:|Percent.Disk.Read.Time",
+                        "metricName": "Disk:C:|Disk Read Time",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Windows OS",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48415-3",
+                        "isStringMetric": false,
+                        "label": "C: Write Time",
+                        "link": "",
+                        "metricKey": "disk:C:|Percent.Disk.Write.Time",
+                        "metricName": "Disk:C:|Disk Write Time",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Windows OS",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48415-4",
+                        "isStringMetric": false,
+                        "label": "C: Free Space",
+                        "link": "",
+                        "metricKey": "disk:C:|Percent.Free.Space",
+                        "metricName": "Disk:C:|Free Space",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Windows OS",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48415-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "disk:C:|Avg..Disk.Write.Queue.Length",
+                        "metricName": "Disk:C:|Avg. Disk Write Queue Length",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Windows OS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel48415-6",
+                        "isStringMetric": false,
+                        "label": "Mem Available",
+                        "link": "",
+                        "metricKey": "mem|Available.Bytes",
+                        "metricName": "Memory|Available Bytes",
+                        "metricUnitId": "gb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Windows OS",
+                        "unit": "GB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "11.Windows Key Metrics",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 17
+            },
+            "height": 324,
+            "id": "4fdfe700-728f-40bf-b185-a3593b795108",
+            "title": "11.Windows Key Metrics",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [
+         {
+            "adapterKindKey": "VMWARE",
+            "identifiers": [],
+            "internalId": "resource:id:0_::_",
+            "name": "PoweredOn:all",
+            "resourceKindKey": "VM Entity Status"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "identifiers": [],
+            "internalId": "resource:id:1_::_",
+            "name": "vSphere World",
+            "resourceKindKey": "vSphere World"
+         }
+      ],
+      "resourceKind": [
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:2_::_",
+            "resourceKindKey": "HostSystem"
+         },
+         {
+            "adapterKindKey": "APPOSUCP",
+            "internalId": "resourceKind:id:4_::_",
+            "resourceKindKey": "win"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "VirtualMachine"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:3_::_",
+            "resourceKindKey": "ClusterComputeResource"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "VM Entity Status"
+         }
+      ]
+   },
+   "uuid": "4a7a0783-c313-4438-8501-e80a1146ee60"
+}
